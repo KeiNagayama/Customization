@@ -1,0 +1,78 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "all",
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": false,
+  "editor.inlayHints.fontFamily": "Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
+  "editor.quickSuggestionsDelay": 1,
+  "editor.fontFamily": "Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
+  "explorer.confirmDelete": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "breadcrumbs.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "debug.onTaskErrors": "showErrors",
+  "workbench.panel.defaultLocation": "right",
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //background
+  "workbench.colorTheme": "Dracula",
+  "workbench.colorCustomizations": {
+    // "editor.background": "#010308",
+    // "activityBar.background": "#19191a",
+    // "sideBar.background": "#070707e8",
+    // "statusBar.background": "#000000c5",
+    // "statusBar.noFolderBackground": "#000000c5",
+    // "statusBar.debuggingBackground": "#000000c5",
+    // "editorGroupHeader.tabsBackground": "#17171a48"
+    // "activityBar.foregraound": "#e2a0f7f1",
+    "statusBar.foreground": "#7c7dbe",
+    "titleBar.activeForeground": "#416177",
+    "editor.selectionBackground": "#eb9dff59"
+  },
+
+  // shells
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bin/bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "/usr/local/bin/fish",
+      "args": ["-l"]
+    }
+  },
+
+  // python
+  "python.languageServer": "Default", //"Microsoft"
+  "jupyter.askForKernelRestart": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  // c++
+  "C_Cpp.default.cppStandard": "c++17", // tuple is not read before c++11
+  "C_Cpp.default.compilerPath": "/usr/bin/g++"
+}
