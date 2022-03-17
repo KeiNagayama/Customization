@@ -31,7 +31,8 @@ Google US: US で地域指定して検索．英語検索する際に有用．
 | Google Calendar      | cal                         | https://calendar.google.com/calendar/u/0/r?tab=rc                                                  |
 | Gmail                | gm                          | https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox                                                |
 | Google Drive         | drive                       | https://drive.google.com/drive/my-drive                                                            |
-| Google Colab         | colab                       | https://colab.research.google.com/                                                                 |
-| Overleaf             | ol https://www.overleaf.com |
+| Google Colab         | colab                       | https://colab.research.google.com/                                                               |
+| Overleaf             | ol                          | https://www.overleaf.com 
+|
 | Chrome Search Engine | se                          | chrome://settings/searchEngines                                                                    |
 | 東工大 OCWi          | tit                         | https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key&AUTHMETHOD=UserPassword |
