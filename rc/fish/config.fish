@@ -24,6 +24,7 @@ abbr -a wc wc -l
 abbr -a c clear
 if command -q exa
 	abbr -a ls exa --icons
+	abbr -a la exa --icons -a
 	abbr -a ll exa --icons -lhag
 	abbr -a lt exa --icons --tree
 end
@@ -61,5 +62,7 @@ abbr -a exe explorer.exe
 abbr -a open explorer.exe (wslpath ./)
 
 # enable starship
-starship init fish | source
+if command -q starship
+	starship init fish | source
+end
 

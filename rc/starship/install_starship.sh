@@ -10,4 +10,5 @@ if [ ! -d $DIR ]; then
 fi
 
 # move config file
-cp starship.toml $DIR
+cp $(dirname $0)/starship.toml $DIR
+
